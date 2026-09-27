@@ -1,0 +1,22 @@
+{
+  "name": "capacitor-native-ad",
+  "version": "1.0.0",
+  "description": "Custom Capacitor plugin: renders a real Google AdMob Native Advanced ad as a native Android overlay, positioned to match a placeholder element in the web content.",
+  "main": "dist/plugin.cjs.js",
+  "module": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "android",
+    "src"
+  ],
+  "author": "Nexarion / Simon",
+  "license": "MIT",
+  "capacitor": {
+    "android": {
+      "src": "android"
+    }
+  },
+  "peerDependencies": {
+    "@capacitor/core": "^6.0.0"
+  }
+}
