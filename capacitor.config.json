@@ -1,0 +1,14 @@
+{
+  "appId": "com.simon.bankingempire",
+  "appName": "Banking Empire",
+  "webDir": "dist",
+  "backgroundColor": "#0A0A0C",
+  "android": {
+    "backgroundColor": "#0A0A0C"
+  },
+  "plugins": {
+    "AdMob": {
+      "appId": "ca-app-pub-1268492465575554~9375337222"
+    }
+  }
+}
