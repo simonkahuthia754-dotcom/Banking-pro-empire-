@@ -1,22 +1,28 @@
 {
-  "name": "capacitor-native-ad",
+  "name": "banking-empire",
   "version": "1.0.0",
-  "description": "Custom Capacitor plugin: renders a real Google AdMob Native Advanced ad as a native Android overlay, positioned to match a placeholder element in the web content.",
-  "main": "dist/plugin.cjs.js",
-  "module": "src/index.js",
-  "types": "src/index.d.ts",
-  "files": [
-    "android",
-    "src"
-  ],
-  "author": "Nexarion / Simon",
-  "license": "MIT",
-  "capacitor": {
-    "android": {
-      "src": "android"
-    }
+  "private": true,
+  "description": "Banking Empire — a trillion-dollar banking tycoon game",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cap:add:android": "cap add android",
+    "cap:sync": "cap sync android",
+    "cap:open:android": "cap open android"
   },
-  "peerDependencies": {
-    "@capacitor/core": "^6.0.0"
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.383.0",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/android": "^6.1.2",
+    "@capacitor-community/admob": "^6.1.0",
+    "capacitor-native-ad": "file:./packages/capacitor-native-ad"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.1"
   }
 }
